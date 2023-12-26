@@ -141,7 +141,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: " "
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -157,6 +157,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _pets
   - /docs
 exclude:
   - "*.sublime-project"

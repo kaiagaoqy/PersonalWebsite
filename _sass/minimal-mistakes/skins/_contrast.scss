@@ -4,12 +4,12 @@
 
 /* Colors */
 $text-color: #000 !default;
-$muted-text-color: $text-color !default;
+$muted-text-color: $base03 !default;
 $primary-color: #0A6EBD !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #000 !default;
-$link-color: #edb996 !default;
-$link-color-hover: #8CC0DE !default;
+$link-color: #8CC0DE !default;
+$link-color-hover:  #edb996 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
