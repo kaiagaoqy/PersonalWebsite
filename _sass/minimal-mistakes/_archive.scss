@@ -25,6 +25,12 @@
     position: relative;
     z-index: 10;
     color:$text-color;
+
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+      outline: 0;
+    }
     
   }
 
