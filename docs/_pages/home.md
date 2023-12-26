@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-hidden: true
+hidden: false
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
@@ -34,5 +34,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
+## Privacy Policy
+
+The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
 {% include feature_row %}
