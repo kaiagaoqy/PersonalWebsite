@@ -105,10 +105,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Qingying Gao"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Shanghai, China/ MD, US"
   email            :
   links:
     - label: "Email"
@@ -215,16 +215,16 @@ kramdown:
 collections:
   docs:
     output: true
-    permalink: docs/:collection/:path/
+    permalink: /:collection/:path/
   recipes:
     output: true
-    permalink: docs/:collection/:path/
+    permalink: /:collection/:path/
   pets:
     output: true
-    permalink: docs/:collection/:path/
+    permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: docs/:collection/:path/
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
