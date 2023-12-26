@@ -156,7 +156,6 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
   - /docs
 exclude:
   - "*.sublime-project"
@@ -183,8 +182,9 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /test # ignore Minimal Mistakes /test
   # - /docs # ignore Minimal Mistakes /docs
-  # - /test # ignore Minimal Mistakes /test
+  
 keep_files:
   - .git
   - .svn
@@ -215,16 +215,16 @@ kramdown:
 collections:
   docs:
     output: true
-    permalink: /:collection/:path/
+    permalink: docs/:collection/:path/
   recipes:
     output: true
-    permalink: /:collection/:path/
+    permalink: docs/:collection/:path/
   pets:
     output: true
-    permalink: /:collection/:path/
+    permalink: docs/:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: docs/:collection/:path/
 
 # Defaults
 defaults:
