@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Qingying Gao"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "高清滢" # site tagline that appears below site title in masthead
 name                     : "Qingying Gao (Kaia)"
 description              : "An amazing website."
 url                      : "https://kaiagaoqy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '/personalwebsite' # the subpath of your site, e.g. "/blog"
 repository               : "kaiagaoqy/personalwebsite" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : ”assets/images/favicon_32x32.png“ # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Qingying Gao(高 清滢)" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
@@ -62,7 +62,7 @@ atom_feed:
   hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : true # true, false (default)
 algolia:
@@ -106,14 +106,14 @@ analytics:
 # Site Author
 author:
   name             : "Qingying Gao"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Shanghai, China/ MD, US"
-  email            :
+  email            : “qgao14 (AT) jh.edu”
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "qgao14@jh.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kaiagaoqy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -141,7 +141,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: " "
+      url: "https://github.com/kaiagaoqy"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -156,8 +156,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
-  - _pets
+  # - _pages
   - /docs
 exclude:
   - "*.sublime-project"
@@ -251,7 +250,7 @@ defaults:
       author_profile: true
   # _docs
   - scope:
-      path: docs/_docs"
+      path: "docs/_docs"
       type: docs
     values:
       layout: single
@@ -335,22 +334,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# # Defaults
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: # true
-#       share: true
-#       related: true
-#       show_date: true
-
-
 
