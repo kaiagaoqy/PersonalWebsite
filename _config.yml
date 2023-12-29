@@ -158,6 +158,8 @@ include:
   - .htaccess
   - _pages
   - /docs
+  - /blog
+  - blog/_posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -231,7 +233,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "docs/_posts"
+      path: "blog/_posts"
       type: posts
     values:
       layout: single
