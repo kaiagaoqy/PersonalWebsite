@@ -15,12 +15,12 @@ main:
   - title: "Blog"
     url: /blog/
     children:
-    - title: "Papers Reading"
-    url: /blog/paper-reading/
-    - title: "Language Learning"
-    url: /blog/language/
-    - title: "Scholar"
-    url: /blog/scholar
+      - title: "Papers Reading"
+      url: /blog/paper-reading/
+      - title: "Language Learning"
+      url: /blog/language/
+      - title: "Scholar"
+      url: /blog/scholar/
   - title: "Archive"
     url: /year-archive/
   # - title: "Categories"
