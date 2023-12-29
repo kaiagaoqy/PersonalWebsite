@@ -14,13 +14,6 @@ main:
     url: /portfolio/
   - title: "Blog"
     url: /blog/
-    children:
-      - title: "Paper Reading"
-      url: /paper-reading/
-      - title: "Language Learning"
-      url: /language/
-      - title: "Scholar"
-      url: /scholar/
   - title: "Archive"
     url: /year-archive/
   # - title: "Categories"
