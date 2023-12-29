@@ -232,7 +232,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "docs/_posts"
+      path: "docs/_blog"
       type: posts
     values:
       layout: single
