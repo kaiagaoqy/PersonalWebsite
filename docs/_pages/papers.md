@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /papers/
 title: "Papers and Articles"
 excerpt: "Published papers and articles"
