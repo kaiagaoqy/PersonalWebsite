@@ -107,9 +107,9 @@ analytics:
 author:
   name             : "Qingying Gao"
   avatar           : "assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "🏫 Shanghai JianPing High school
-🎓 CUFE BS Applied Stats & BEcon Finance
-🎓 JHU MSE CS
+  bio              : "🏫 Shanghai JianPing High school \
+🎓 CUFE BS Applied Stats & BEcon Finance \
+🎓 JHU MSE CS \
 🔛 JHU PhD CS"
   location         : "Shanghai, China/ MD, US"
   # email            : “qgao14 (AT) jh.edu”
