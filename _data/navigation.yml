@@ -11,16 +11,16 @@ main:
   - title: "Papers"
     url: /papers/
   - title: "Portfolio"
-    url: /papers/
+    url: /portfolio/
   - title: "Blog"
     url: /blog/
     children:
       - title: "Papers-Reading"
-      url: /blog/paper-reading/
+      url: /paper-reading/
       - title: "Language-Learning"
-      url: /blog/language/
+      url: /language/
       - title: "Scholar"
-      url: /blog/scholar/
+      url: /scholar/
   - title: "Archive"
     url: /year-archive/
   # - title: "Categories"
