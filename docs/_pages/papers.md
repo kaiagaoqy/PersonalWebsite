@@ -15,7 +15,8 @@ layouts_gallery:
 last_modified_at: 2023-12-28T11:59:26-04:00
 toc: true
 toc_label: "Paper by Year"
-toc_sticky: false
+# toc_sticky: false
+author_profile: true 
 ---
 
 ## Segmentation
