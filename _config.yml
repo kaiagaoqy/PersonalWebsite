@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "QG website"
+title                    : "QG's website"
 title_separator          : "-"
 subtitle                 : "高清滢" # site tagline that appears below site title in masthead
 name                     : "Qingying Gao (Kaia)"
-description              : "An amazing website."
+description              : "Qingying Gao's Personal Website"
 url                      : "https://kaiagaoqy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '/personalwebsite' # the subpath of your site, e.g. "/blog"
 repository               : "kaiagaoqy/personalwebsite" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,10 @@ analytics:
 author:
   name             : "Qingying Gao"
   avatar           : "assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "🏫 Shanghai JianPing High school
+🎓 CUFE BS Applied Stats & BEcon Finance
+🎓 JHU MSE CS
+🔛 JHU PhD CS"
   location         : "Shanghai, China/ MD, US"
   # email            : “qgao14 (AT) jh.edu”
   links:
@@ -128,7 +131,7 @@ author:
       url: "https://github.com/kaiagaoqy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/kaia_gaoqingying?igsh=OGQ5ZDc2ODk2ZA=="
 
 # Site Footer
 footer:
@@ -150,7 +153,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/kaia_gaoqingying?igsh=OGQ5ZDc2ODk2ZA=="
 
 
 # Reading Files
@@ -225,7 +228,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "blog/_posts"
+      path: "blog"
       type: posts
     values:
       layout: single
@@ -237,7 +240,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "blog/_pages"
+      path: "_pages"
       type: pages
     values:
       layout: single
