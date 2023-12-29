@@ -15,9 +15,9 @@ main:
   - title: "Blog"
     url: /blog/
     children:
-      - title: "Papers-Reading"
+      - title: "Paper Reading"
       url: /paper-reading/
-      - title: "Language-Learning"
+      - title: "Language Learning"
       url: /language/
       - title: "Scholar"
       url: /scholar/
