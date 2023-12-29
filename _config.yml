@@ -161,8 +161,7 @@ include:
   - .htaccess
   - _pages
   # - /docs
-  - /blog
-  - blog/_posts
+  - _posts
   - _portfolio
 exclude:
   - "*.sublime-project"
@@ -228,7 +227,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "blog"
+      path: "_posts"
       type: posts
     values:
       layout: single
