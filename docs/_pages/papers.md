@@ -1,5 +1,6 @@
 ---
 permalink: /papers/
+title: "Papers and Articles"
 excerpt: "Published papers and articles"
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
@@ -13,18 +14,22 @@ layouts_gallery:
     alt: "archive layout example"
 last_modified_at: 2023-12-28T11:59:26-04:00
 toc: true
+toc_label: "Paper by Year"
+toc_sticky: false
 ---
 
 ## Segmentation
-
+### 2023
 ---
 
 ## VQA
-
+### 2023
 ---
 ## Augmented Reality
-### Mixed Reality Guided Root Canal Therapy
+### 2023
+#### Mixed Reality Guided Root Canal Therapy
 **AE-CAI Workshop**{: .notice--primary}
+**2023**{: .notice--warning}
 
 Fangjie Li\*| **Qingying Gao\***| Nengyu Wang| Nicholas Greene| Tianyu Song| Omid Dianat| Ehsan Azimi
 

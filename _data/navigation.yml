@@ -10,12 +10,23 @@ main:
   #   url: /sitemap/
   - title: "Papers"
     url: /papers/
-  - title: "Posts"
+  - title: "Portfolio"
+    url: /papers/
+  - title: "Blog"
+    url: /blog/
+    children:
+    - title: "Papers Reading"
+    url: /blog/paper-reading/
+    - title: "Language Learning"
+    url: /blog/language/
+    - title: "Scholar"
+    url: /blog/scholar
+  - title: "Archive"
     url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
   # - title: "Pages"
   #   url: /page-archive/
   # - title: "Collections"
