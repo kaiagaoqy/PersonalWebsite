@@ -107,9 +107,9 @@ analytics:
 author:
   name             : "Qingying Gao"
   avatar           : "assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "🏫 Shanghai JianPing High school \
-🎓 CUFE BS Applied Stats & BEcon Finance \
-🎓 JHU MSE CS \
+  bio              : "🏫 Shanghai JianPing High school <br>
+🎓 CUFE BS Applied Stats & BEcon Finance <br>
+🎓 JHU MSE CS <br>
 🔛 JHU PhD CS"
   location         : "Shanghai, China/ MD, US"
   # email            : “qgao14 (AT) jh.edu”
@@ -119,7 +119,7 @@ author:
       url: "qgao14@jh.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://kaiagaoqy.github.io/personalwebsite/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
